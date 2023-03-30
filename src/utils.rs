@@ -24,6 +24,10 @@ pub fn list_files(folder_path: &str) {
     }
 }
 
+fn save_file() {
+    
+}
+
 // ** Image
 pub fn handle_image(entry: &DirEntry) {
     match resize_image(entry.path()) {
